@@ -11,3 +11,5 @@
     - `git stash clear`: remove all your stashes
 - `git switch -c <NAME>`: create and move the the branch <NAME>
 - `git checkout -b <NAME>`: also create and move to branch <NAME>
+- `git rebase <BRANCH>`: change the history and update current branch with <BRANCH>
+
