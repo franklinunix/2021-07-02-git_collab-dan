@@ -6,3 +6,4 @@
 - `git switch <NAME>`: move the the branch <NAME>
     - `git checkout <NAME>`: the "older" way to switch branches
 
+- `git stash`: will create a temp commit
