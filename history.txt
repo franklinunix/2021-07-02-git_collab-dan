@@ -1,0 +1,151 @@
+   89  ssh-keygen
+   90  cat /c/Users/Danie/.ssh/git2.pub
+   91  mkdir git
+   92  cd git/
+   93  git clone git@github.com:chendaniely/2021-07-02-git_collab-dan.git
+   94  cd 2021-07-02-git_collab-dan/
+   95  ls
+   96  ls -a
+   97  git status
+   98  git checkout -b main
+   99  git status
+  100  nano README.md
+  101  git status
+  102  git add README.md
+  103  git status
+  104  git commit -m "talked about git clone"
+  105  git log --oneline
+  106  git push origin main
+  107  git log --oneline README.md
+  108  git remote -v
+  109  git remote add origin <URL>
+  110  history
+  111  git log --oneline
+  112  git status
+  113  git branch my_first_branch
+  114  git log --oneline
+  115  git switch my_first_branch
+  116  git status
+  117  git branch -a
+  118  git checkout my_first_branch
+  119  git status
+  120  git log --oneline
+  121  nano README.md
+  122  git status
+  123  git add README.md
+  124  git status
+  125  git commit -m "branch, switch, checkout"
+  126  git log --oneline
+  127  git log --oneline --graph --all
+  128  cat README.md
+  129  git switch main
+  130  git checkout main
+  131  cat README.md
+  132  git log --oneline --graph --all
+  133  git switch my_first_branch
+  134  cat README.md
+  135  git push origin my_first_branch
+  136  cat README.md
+  137  git switch main
+  138  cat README.md
+  139  git pull origin main
+  140  cat README.md
+  141  git branch -a
+  142  git log --oneline
+  143  git remote -v
+  144  git fetch --prune
+  145  git log --oneline
+  146  git branch -a
+  147  git branch -d my_first_branch
+  148  cat README.md
+  149  git branch -a
+  150  git log --oneline
+  151  history
+  152  cat README.md
+  153  git switch -c stash
+  154  git checkout -b statsh
+  155  git checkout -b stash
+  156  git branch -d statsh
+  157  git switch stash
+  158  git branch -d statsh
+  159  code README.md
+  160  git status
+  161  git switch main
+  162  git status
+  163  git status
+  164  git switch stash
+  165  nano RE
+  166  cat README.md
+  167  git add README.md
+  168  git commit -m "talked about switch -c and checkout -b"
+  169  git switch main
+  170  cat README.md
+  171  code README.md
+  172  git status
+  173  git switch stash
+  174  git stash
+  175  git log --oneline
+  176  git log --oneline --graph --all
+  177  git switch stash
+  178*
+  179  git stash list
+  180  git switch main
+  181  cat README.md
+  182  git stash apply
+  183  cat README.md
+  184  git log --oneline --graph --all
+  185  git status
+  186  cat README.md
+  187  git add README.md
+  188  git commit -m "talked about stash"
+  189  git stash list
+  190  git stash clear
+  191  git stash clear
+  192  git stash list
+  193  git log --oneline --graph --all
+  194  git fetch --prune
+  195  git log --oneline --graph --all
+  196  git push origin main
+  197  git branch -m stash my_stash
+  198  git branch -a
+  199  git switch my_stash
+  200  git push origin my_stash
+  201  history
+  202  cat README.md
+  203  history
+  204  git fetch --prune
+  205  git log --oneline --graph --all
+  206  git switch main
+  207  git pull origin main
+  208  git switch my_stash
+  209  git rebase main
+  210  code README.md
+  211  nano README.md
+  212  git status
+  213  git add README.md
+  214  git status
+  215  git rebase --continue
+  216  git log --oneline --graph --all
+  217  git push -f origin my_stash
+  218  git switch main
+  219  git pull origin main
+  220  cat README.md
+  221  git log --oneline --graph --all
+  222  git fetch --prune
+  223  git branch -d my_stash
+  224  git log --oneline --graph --all
+  225  git log --oneline --graph --all
+  226  nano README.md
+  227  git status
+  228  git add README.md
+  229  git commit -m "git rebase"
+  230  git push origin main
+  231  git switch -c my_rebase
+  232  git log --oneline --graph --all
+  233  git push origin my_rebase
+  234  git log --onelin --graph --all
+  235  git log --oneline --graph --all
+  236  git switch main
+  237  git reset --hard f0cadd3
+  238  git log --oneline --graph --all
+  239  history
