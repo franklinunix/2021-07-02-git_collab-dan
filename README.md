@@ -15,3 +15,4 @@
 
 - reference
     -  https://swcarpentry.github.io/git-novice/reference.html
+    -  https://chendaniely.github.io/training_ds_r/help-faq.html
