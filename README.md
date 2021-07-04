@@ -13,3 +13,5 @@
 - `git checkout -b <NAME>`: also create and move to branch <NAME>
 - `git rebase <BRANCH>`: change the history and update current branch with <BRANCH>
 
+- reference
+    -  https://swcarpentry.github.io/git-novice/reference.html
